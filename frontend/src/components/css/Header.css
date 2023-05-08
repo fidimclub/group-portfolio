@@ -1,0 +1,47 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: rgba(1, 1, 1, 0.5);
+    position: fixed;
+    width: 100vw;
+}
+
+header a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 1rem;
+    color: #000;
+}
+
+nav a:hover {
+    text-decoration: none;
+    margin: 1rem;
+    color: #fff;
+}
+
+.nav-btn {
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 1024px) {
+    .nav-btn {
+        visibility: visible;
+    }
+
+    nav {
+        position: fixed;
+    }
+}
