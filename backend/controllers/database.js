@@ -3,15 +3,13 @@ const mongo = require("mongoose");
 const config =
 	require("../config/env.json")[process.env.NODE_ENV || "development"].mongo;
 
-const users = require("../models/user");
+const User = require("../models/user");
 
 mongo.set("strictQuery", true);
 mongo
 	.connect(config.con_str)
 	.then(() => console.log("Connected to MongoDB."))
 	.catch((err) => console.log("Could not connect to MongoDB.", err));
-
-const User = users;
 
 /**
  * Gets an users object.
