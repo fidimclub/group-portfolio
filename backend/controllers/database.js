@@ -4,6 +4,7 @@ const config =
 	require("../config/env.json")[process.env.NODE_ENV || "development"].mongo;
 
 const User = require("../models/user");
+const codes = require("../utils/codes");
 
 mongo.set("strictQuery", true);
 mongo
@@ -18,10 +19,14 @@ mongo
  */
 const getUser = async (firstName) => {
 	const user = await User.findOne({ firstName });
-	if (!user) return "no_user";
+	if (!user) return codes.FIDIM003;
 	return user;
 };
 
+/**
+ * Get all FIDIM users
+ * @returns list of Fidim users
+ */
 const getUsersList = async () => {
 	const usersList = await User.find();
 	if (!usersList) return "no_users_list";
