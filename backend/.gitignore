@@ -32,3 +32,5 @@ response.json
 
 # env.json
 #config
+
+.env
