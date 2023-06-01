@@ -1,11 +1,12 @@
-import React from 'react'
-import './HeroSection.css'
-
+import React from "react";
+import "./HeroSection.css";
 
 const HeroSection = () => {
   return (
-    <div>Hero Section</div>
-  )
-}
+    <div>
+      <img />
+    </div>
+  );
+};
 
-export default HeroSection
+export default HeroSection;
