@@ -1,22 +1,13 @@
 import React from 'react'
 import "./NavBar.css"
-
+import logo from "../images/logo.png"
 
 const NavBar = () => {
   return (
-
-<html>
-<head>
-  <title>Portfolio Site</title>
-  <!-- Include Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-</head>
-<body>
-
-  <!-- Navbar -->
+<>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">
-        <img src="logo.png" alt="Logo" style="width: 70px; height: auto;">
+        {logo}
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -41,25 +32,23 @@ const NavBar = () => {
 
  
   <div id="home">
-    <!-- Home section content -->
+   
   </div>
 
   <div id="about">
-    <!-- About section content -->
+
   </div>
 
   <div id="portfolio">
-    <!-- Portfolio section content -->
+
   </div>
 
   <div id="contact">
-    <!-- Contact section content -->
+   
   </div>
+  </>
 
 
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-</body>
-</html>
   )
 }
 
