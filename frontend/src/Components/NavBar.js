@@ -4,7 +4,7 @@ import "./NavBar.css"
 
 const NavBar = () => {
   return (
-   <!DOCTYPE html>
+
 <html>
 <head>
   <title>Portfolio Site</title>
