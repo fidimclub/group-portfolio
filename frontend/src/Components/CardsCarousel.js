@@ -16,7 +16,7 @@ const members = [
    {
       id: 2,
       img: "https://robohash.org/sandwich",
-      name: "Michael Bolton",
+      name: "Michael Bolt-on",
       role: "Master Coder",
       bio: "Just because you're paranoid....",
       link: "https://octonation.com/",
