@@ -5,26 +5,25 @@ import logo from "../images/logo.png"
 const NavBar = () => {
   return (
 <>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-        {logo}
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#home">Home</a>
+<nav className="navbar">
+      <div className="navbar-container">
+        <div className="logo-container">
+        <a href="#" className="navbar-logo">
+          <img src={logo} alt="Logo" className="navbar-logo-image" />
+        </a>
+        </div>
+        <ul className="navbar-links">
+        <li className="navbar-item">
+          <a className="nav-link" href="#home">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About Us</a>
+        <li className="navbar-item">
+          <a className="nav-link" href="#about">About Us</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#portfolio">Projects</a>
+        <li className="navbar-item">
+          <a className="nav-link" href="#portfolio">Projects</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
+        <li className="navbar-item">
+          <a className="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
