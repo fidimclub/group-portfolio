@@ -1,10 +1,15 @@
-import React from 'react'
-import './AboutUs.css'
+import React from "react";
+import CardsCarousel from "./CardsCarousel";
+
+import "./AboutUs.css";
 
 const AboutUs = () => {
-  return (
-    <div>AboutUs</div>
-  )
-}
+   return (
+      <div>
+         AboutUs
+         <CardsCarousel />
+      </div>
+   );
+};
 
-export default AboutUs
+export default AboutUs;
