@@ -1,0 +1,17 @@
+
+
+
+.header {
+    background-image: linear-gradient(45deg,
+    rgba(12, 168, 106, .7), rgba(12, 168, 105, .6)), url(../images/sky.jpg);
+    background-color: #F3F6EF;
+    background-size: cover;
+    background-position: 0 80%;
+    color: #FFFFFF;
+}
+
+/* background-image:
+            linear-gradient(45deg,
+              rgba(245,70,66, 0.75),
+              rgba(8,83,156, 0.75)), url(
+'https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png'); */
