@@ -1,34 +1,42 @@
 import React from "react";
 import "./HeroSection.css";
-
+import skyImage from "../images/sky.jpg";
 
 const HeroSection = () => {
    return (
-      <header className="container p-4 my-2 rounded-3 header">
-        
-            <h1 className="display-5 fw-bold">
-               Unlocking the Power of Digital Innovation
-            </h1>
-            <p className="col-md-8 lead">
-               Are you ready to take your online presence to new heights? Look
-               no further! Our exceptional team of web developers is here to
-               transform your ideas into stunning digital experiences that
-               captivate your audience. 
+      <div class="container-fluid header px-4 py-5">
+         <div class="row flex-lg-row-reverse align-items-center g-5 mx-2">
+            <div class="col-12 col-lg-6">
+               <img
+                  src={skyImage}
+                  class="d-block mx-lg-auto img-fluid"
+                  alt="blue sky and mountain top"
+                  width="700"
+                  height="500"
+                  loading="lazy"
+               />
+            </div>
+            <div class="col-lg-6">
+               <h1 class="display-5 fw-bold lh-1 mb-3">
+                  Unlocking the Power of Digital Innovation
+               </h1>
+               <p class="lead">
+                  Are you ready to take your online presence to new heights?
+                  Look no further! Our exceptional team of web developers is
+                  here to transform your ideas into stunning digital experiences
+                  that captivate your audience.
                </p>
-               <p className="col-md-8 lead">
-               Why Choose Us? Unparalleled Expertise:
-               Our team comprises seasoned web developers who possess a deep
-               understanding of the latest industry trends, frameworks, and
-               technologies. We stay ahead of the curve to ensure your website
-               is not just cutting-edge, but also optimized for performance and
-               scalability.
-               </p>
-    
-            <button className="btn btn-dark btn-lg" type="button">
-               press
-            </button>
-      
-      </header>
+               <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  <button
+                     type="button"
+                     class="btn btn-outline-secondary btn-lg px-4"
+                  >
+                     See Our Work
+                  </button>
+               </div>
+            </div>
+         </div>
+      </div>
    );
 };
 
