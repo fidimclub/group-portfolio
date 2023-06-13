@@ -1,6 +1,6 @@
 import React from "react";
 import "./HeroSection.css";
-import skyImage from "../images/sky.jpg";
+import robotHead from "../images/robot-head.webp"
 
 const HeroSection = () => {
    return (
@@ -8,7 +8,7 @@ const HeroSection = () => {
          <div class="row flex-lg-row-reverse align-items-center g-5 mx-2">
             <div class="col-12 col-lg-6">
                <img
-                  src={skyImage}
+                  src={robotHead}
                   class="d-block mx-lg-auto img-fluid"
                   alt="blue sky and mountain top"
                   width="700"
