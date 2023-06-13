@@ -4,7 +4,7 @@ import robotHead from "../images/robot-head.webp"
 
 const HeroSection = () => {
    return (
-      <div class="container-fluid header px-4 py-5">
+      <div class="container-fluid header px-4 py-5 mb-5">
          <div class="row flex-lg-row-reverse align-items-center g-5 mx-2">
             <div class="col-12 col-lg-6">
                <img
