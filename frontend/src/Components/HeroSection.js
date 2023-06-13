@@ -1,52 +1,43 @@
 import React from "react";
 import "./HeroSection.css";
-import skyImage from "../images/sky.jpg";
+import robotHead from "../images/robot-head.webp"
 
 const HeroSection = () => {
-  return (
-    <div className="container-fluid header px-0 py-5">
-      <div className="row g-0">
-        <div className="col-lg-6" style={{ position: 'relative' }}>
-          <div
-            className="content-wrapper text-black p-5"
-            style={{
-              position: 'absolute',
-              top: '300px',
-              left: '50%',
-              transform: 'translate(-50%, -50%)',
-              backgroundColor: 'rgba(199, 186, 149, 0.4)', // Semi-transparent white backdrop
-              padding: '20px',
-              borderRadius: '10px',
-            }}
-          >
-            <h1 className="display-5 fw-bold lh-1 mb-3">
-              Building Our Dreams, Forging Our Paths
-            </h1>
-            <p className="lead">
-              Welcome to a community of passionate novice web developers who believe in the power of independence and self-driven experience. We are a group of dedicated individuals united by our common goal to build innovative projects while having fun along the way. In a world where experience is hard to come by, we take matters into our own hands and pave our own paths towards success.
-            </p>
-            <p className="lead">
-              Join us and unlock the realm of endless possibilities, where creativity knows no bounds. Together, we embark on a journey of self-discovery and skill development, leveraging our collective knowledge and determination. From coding challenges to collaborative projects, we thrive in an environment that encourages exploration and experimentation.
-            </p>
-            <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button type="button" className="btn btn-outline-dark btn-lg px-4">
-                See Our Work
-              </button>
+   return (
+      <div class="container-fluid header px-4 py-5 mb-5">
+         <div class="row flex-lg-row-reverse align-items-center g-5 mx-2">
+            <div class="col-12 col-lg-6">
+               <img
+                  src={robotHead}
+                  class="d-block mx-lg-auto img-fluid"
+                  alt="blue sky and mountain top"
+                  width="700"
+                  height="500"
+                  loading="lazy"
+               />
             </div>
-          </div>
-        </div>
-        <div>
-          <img
-            src={skyImage}
-            className="d-block w-100"
-            alt="blue sky and mountain top"
-            loading="lazy"
-            style={{ maxHeight: '800px' }}
-          />
-        </div>
+            <div class="col-lg-6">
+               <h1 class="display-5 fw-bold lh-1 mb-3">
+                  Unlocking the Power of Digital Innovation
+               </h1>
+               <p class="lead">
+                  Are you ready to take your online presence to new heights?
+                  Look no further! Our exceptional team of web developers is
+                  here to transform your ideas into stunning digital experiences
+                  that captivate your audience.
+               </p>
+               <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  <button
+                     type="button"
+                     class="btn btn-outline-secondary btn-lg px-4"
+                  >
+                     See Our Work
+                  </button>
+               </div>
+            </div>
+         </div>
       </div>
-    </div>
-  );
+   );
 };
 
 
