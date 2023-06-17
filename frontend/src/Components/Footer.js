@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css'
 const Footer = () => {
   return (
-
+    <>
     <footer className="footer">
       <div className="container">
         <div className="row">
@@ -21,10 +21,16 @@ const Footer = () => {
                 </div>
 
     </div>
+    </form>
     <div class="copyright text-center">
       Copyright &copy; 2023 <span>Privacy Policy</span>
     </div>
+    </div>
+    </div>
+    </div>
+    
 </footer>
+</>)
 }
 
 export default Footer;
