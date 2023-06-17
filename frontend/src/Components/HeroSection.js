@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./HeroSection.css"
 import robotHead from "../images/robotHead.webp"
 
@@ -44,9 +45,9 @@ const HeroSection = () => {
             style={{ maxHeight: '1200px', width: '50%', marginLeft: '400px'}}
           />
         </div>
+
       </div>
-    </div>
-  );
+   );
 };
 
 
