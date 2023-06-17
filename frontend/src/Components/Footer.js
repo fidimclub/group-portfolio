@@ -9,16 +9,16 @@ const Footer = () => {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Include Bootstrap CSS -->
+ 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-  <!-- Include Font Awesome Icons (for social media icons) -->
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <title>Portfolio Site</title>
   
 </head>
 <body>
   <style>
-    /* Additional custom styles can be added here */
+   
     body {
       background-color: #222;
       color: #fff;
@@ -91,9 +91,9 @@ const Footer = () => {
 height: 40px;
     }
   </style>
-  <!-- Content of your website -->
 
-  <!-- Footer -->
+
+  
   <footer class="footer">
     <div class="container">
       <div class="row">
@@ -142,9 +142,9 @@ height: 40px;
       Copyright &copy; 2023 <span>Privacy Policy</span>
   </footer>
 
-  <!-- Include Bootstrap JS -->
+ 
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  <!-- Include Font Awesome JS (for social media icons) -->
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
 </body>
 </html>
