@@ -17,7 +17,7 @@ const HeroSection = () => {
             </p>
             
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button type="button" className="btn btn-outline-dark btn-lg px-4">
+              <button type="button" className="btn btn-lg px-4 hero-btn">
                 See Our Work
               </button>
             </div>

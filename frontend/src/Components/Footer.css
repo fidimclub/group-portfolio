@@ -41,14 +41,17 @@
   .footer .copyright span {
     color: #0894d1;
   }
-  .btn{
+
+  .btn1 {
     width: 80px;
     height: 40px;
     background-color: #ffcb00;
   }
-  .btn:hover{
+
+  .btn1:hover {
     background-color: #b39f3b;
   }
+
   .btn2{
     width: 80px;
     height: 40px;

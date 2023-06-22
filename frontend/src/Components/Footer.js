@@ -17,7 +17,7 @@ const Footer = () => {
                   <input type="email" className="form-control" placeholder="Enter your email address" />
                 </div>
                 <div className="col-md-4 form-group">
-                  <button type="submit" className="btn">Send</button>
+                  <button type="submit" className="btn btn1">Send</button>
                 </div>
 
     </div>
