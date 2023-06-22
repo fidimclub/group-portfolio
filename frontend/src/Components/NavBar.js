@@ -25,22 +25,22 @@ const NavBar = () => {
                </button>
                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                   <ul className="navbar-nav">
-                     <li className="nav-item">
+                     <li className="nav-item ms-5">
                         <a className="nav-link active" href="#home">
                            Home
                         </a>
                      </li>
-                     <li className="nav-item">
+                     <li className="nav-item ms-5">
                         <a className="nav-link" href="#about">
                            About Us
                         </a>
                      </li>
-                     <li className="nav-item">
+                     <li className="nav-item ms-5">
                         <a className="nav-link" href="#portfolio">
                            Projects
                         </a>
                      </li>
-                     <li className="nav-item">
+                     <li className="nav-item mx-5">
                         <a className="nav-link" href="#contact">
                            Contact
                         </a>
