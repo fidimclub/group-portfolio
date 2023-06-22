@@ -5,14 +5,13 @@ import logo from "../images/logo.png";
 const NavBar = () => {
    return (
       <>
-         <nav className="navbar navbar-expand-lg">
+         <nav className="navbar navbar-expand-md p-1">
             <div className="container-fluid">
-               <div class="container">
-                  <a class="navbar-brand" href="#">
-                     <img src={logo} alt="Logo" width="100" />
+               
+                  <a class="navbar-brand navbar-logo" href="#">
+                     <img src={logo} alt="Logo" height="90" />
                   </a>
-               </div>
-
+        
                <button
                   class="navbar-toggler"
                   type="button"
@@ -24,7 +23,7 @@ const NavBar = () => {
                >
                   <span class="navbar-toggler-icon"></span>
                </button>
-               <div class="collapse navbar-collapse" id="navbarNav">
+               <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                   <ul className="navbar-nav">
                      <li className="nav-item">
                         <a className="nav-link active" href="#home">
