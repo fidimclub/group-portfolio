@@ -40,8 +40,9 @@ const CardsCarousel = () => {
          style={{width: "20rem", margin: "0 auto"}}
          id="carouselExampleSlidesOnly"
          class="carousel slide carousel-fade"
-         data-bs-interval="4000"
+         data-bs-interval="2000"
          data-bs-ride="carousel"
+         
       >
          <div class="carousel-inner">{renderedCards}</div>
       </div>

@@ -30,21 +30,6 @@ const NavBar = () => {
   </nav>
 
  
-  <div id="home">
-   
-  </div>
-
-  <div id="about">
-
-  </div>
-
-  <div id="portfolio">
-
-  </div>
-
-  <div id="contact">
-   
-  </div>
   </>
 
 

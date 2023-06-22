@@ -1,8 +1,9 @@
  .navbar {
     background-color: #f8f9fa; 
     height: 80px;
-    padding: 10px 20px;
+    padding: 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
   }
   
  
@@ -57,9 +58,10 @@
   
   .navbar-item {
     margin-left: 60px;
+    color: black;
   }
   
-  .navbar-link {
+  .nav-link {
     text-decoration: none;
     color: #0b0b0b;
   }

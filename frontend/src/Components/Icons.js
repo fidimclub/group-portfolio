@@ -4,7 +4,7 @@ import './Icons.css'
 
 const Icons = () => {
   return (
-    <div style={{margin: 400}}></div>
+    <div style={{height: 200, backgroundColor: '#0da86a'}}></div>
   )
 }
 

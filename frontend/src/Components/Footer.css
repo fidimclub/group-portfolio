@@ -1,12 +1,10 @@
-body {
-    background-color: #222;
-    color: #fff;
-  }
+
 
   .footer {
-    background-color: #222;
+    background-color: #e9ebdd;
     padding-top: 20px;
     text-align: center;
+    height: 400px;
   }
   
   .footer p {
