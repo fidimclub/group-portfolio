@@ -7,20 +7,8 @@ const HeroSection = () => {
   return (
     <div className="container-fluid header px-0">
       <div className="row g-0 white-background" >
-        <div className="col-lg-6" position="relative">
-          <div
-            className="content-wrapper text-black p-5"
-            style={{
-              backgroundColor: 'rgba(199, 186, 149, 0.4)', // Semi-transparent white backdrop
-              padding: '20px',
-              borderRadius: '10px',
-              marginLeft: 500,
-              top: '50%',
-              position: 'absolute',
-              width: '30%',
-
-            }}
-          >
+        <div className="col-lg-6">
+          <div className="content-wrapper hero-info text-black p-5">
             <h1 className="display-5 fw-bold lh-1 mb-3">
               Building Our Dreams, Forging Our Paths
             </h1>

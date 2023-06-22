@@ -3,3 +3,12 @@
     background-color: #e28743;
 }
 
+
+/* Semi-transparent white backdrop */
+.hero-info {
+        background-color: 'rgba(199, 186, 149, 0.4)';
+   
+        border-radius: '10px';
+      
+}
+
