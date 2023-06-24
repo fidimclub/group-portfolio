@@ -28,6 +28,7 @@ const Footer = () => {
   </form>
 </div>
 
+
 <div className="col-md-4" >
   <ul className="nobull">
     <li>Members:</li>
@@ -52,6 +53,7 @@ const Footer = () => {
 </div>
 
     </div>
+
    
     
 </footer>
@@ -59,3 +61,4 @@ const Footer = () => {
 }
 
 export default Footer;
+
