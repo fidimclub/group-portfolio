@@ -11,6 +11,7 @@ const Footer = () => {
           <div className="col-md-4">
             <img src={logo} alt="Logo" style={{ width: '150px', height: 'auto' }} />
           </div>
+
           <div className="col-md-4" style={{marginBottom: "20px"}}>
   <h5>Get In Touch</h5>
  
@@ -22,9 +23,11 @@ const Footer = () => {
       <div className="col-md-4 form-group">
         <button type="submit" className="btn" style={{marginLeft: "110px"}}>Send</button>
       </div>
+
     </div>
   </form>
 </div>
+
 
 <div className="col-md-4" >
   <ul className="nobull">
@@ -50,6 +53,7 @@ const Footer = () => {
 </div>
 
     </div>
+
    
     
 </footer>
@@ -57,3 +61,4 @@ const Footer = () => {
 }
 
 export default Footer;
+

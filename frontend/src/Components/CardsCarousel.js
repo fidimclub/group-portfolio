@@ -37,7 +37,6 @@ const CardsCarousel = () => {
    const renderedCards = renderCards(members);
    return (
       <div
-         style={{width: "20rem", margin: "0 auto"}}
          id="carouselExampleSlidesOnly"
          class="carousel slide carousel-fade"
          data-bs-interval="2000"
