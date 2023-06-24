@@ -2,9 +2,10 @@
 
   .footer {
     background-color: #e9ebdd;
-    padding-top: 20px;
+    padding: 60px;
     text-align: center;
     height: 400px;
+
   }
   
   .footer p {
@@ -69,4 +70,8 @@
   .form-control{
     width: 250px;
 height: 40px;
+  }
+
+  .nobull {
+    list-style-type: none;
   }
