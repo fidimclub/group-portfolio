@@ -11,6 +11,10 @@ const Footer = () => {
           <div className="col-md-4">
             <img src={logo} alt="Logo" style={{ width: '150px', height: 'auto' }} />
           </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> ece3b1cfdb7dc5739890a4163631a7449eddf9b8
           <div className="col-md-4" style={{marginBottom: "20px"}}>
   <h5>Get In Touch</h5>
  
@@ -22,6 +26,7 @@ const Footer = () => {
       <div className="col-md-4 form-group">
         <button type="submit" className="btn" style={{marginLeft: "110px"}}>Send</button>
       </div>
+<<<<<<< HEAD
     </div>
   </form>
 </div>
@@ -50,6 +55,37 @@ const Footer = () => {
 </div>
 
     </div>
+=======
+
+    </div>
+  </form>
+</div>
+
+<div className="col-md-4" >
+  <ul className="nobull">
+    <li>Members:</li>
+    <li>Anthony Barnett</li>
+    <li>David Palacios</li>
+    <li>Seth Zwerling</li>
+    <li>Peter Huynh</li>
+    <li>Seren Kapanoglu</li>
+    <li>Zena Creps</li>
+      
+       
+      
+      
+      </ul>
+      Copyright &copy; 2023 <span>Privacy Policy</span>
+    
+    </div>
+</div>
+
+<div className="col-md-4" style={{marginBottom: "20px"}}>
+ 
+</div>
+
+    </div>
+>>>>>>> ece3b1cfdb7dc5739890a4163631a7449eddf9b8
    
     
 </footer>
