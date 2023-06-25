@@ -5,10 +5,10 @@ import robotHead from "../images/robotHead.webp"
 
 const HeroSection = () => {
   return (
-    <div className="container-fluid header px-0">
+    <div className="container-fluid header px-0" >
       <div className="row g-0 background" >
         <div className="col-lg-6">
-          <div className="content-wrapper hero-info text-black p-5 lh-lg">
+          <div className="content-wrapper hero-info text-black p-5 lh-lg border-end">
             <h1 className="display-5 fw-bold lh-1 mb-3">
               Building Our Dreams, Forging Our Paths
             </h1>
@@ -23,7 +23,7 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-6 order-first order-lg-last">
+        <div className="col-lg-6 order-first order-lg-last" >
             <img
               src={robotHead}
               className="d-block w-100"
