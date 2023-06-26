@@ -1,64 +1,52 @@
-import React from 'react';
-import './Footer.css'
-import logo from "../images/logo.png" 
+import React from "react";
+import "./Footer.css";
+import logo from "../images/logo.png";
 
 const Footer = () => {
-  return (
-    <>
-    <footer className="footer">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-4">
-            <img src={logo} alt="Logo" style={{ width: '150px', height: 'auto' }} />
-          </div>
+   return (
+      <footer className="container-fluid pt-5 px-5" style={{backgroundColor:"#e9ebdd"}}>
+         <div className="row pb-5 justify-content-md-evenly">
+            <div className="order-last order-md-first col-md-2 col-sm-12">
+               <img
+                  src={logo}
+                  alt="Logo"
+                  style={{ width: "100%", height: "auto" }}
+               />
+            </div>
 
-          <div className="col-md-4" style={{marginBottom: "20px"}}>
-  <h5>Get In Touch</h5>
- 
-  <form>
-    <div className="form-row" style={{marginBottom: "20px"}}>
-      <div className="col-md-8 form-group" style={{marginBottom: "20px", marginLeft: "110px"}}>
-        <input type="email" className="form-control" placeholder="Enter your email address" />
-      </div>
-      <div className="col-md-4 form-group">
-        <button type="submit" className="btn" style={{marginLeft: "110px"}}>Send</button>
-      </div>
+            <div className="col-md-3 col-sm-12 mb-4">
+               <form className="" style={{maxWidth: "30rem"}}>
+                  <label className="form-label" htmlFor="email"><h5>Get In Touch</h5></label>
+                  <input
+                     id="email"
+                     type="email"
+                     className="form-control"
+                     placeholder="email address"
+                  />
+                  <button type="submit" className="btn btn1 px-3 py-2 mt-2">
+                     Send
+                  </button>
+               </form>
+            </div>
 
-    </div>
-  </form>
-</div>
+            <div className="col-md-3 col-sm-12 mb-3">
+               <h5>Members:</h5>
+               <ul className="list-unstyled">
+                  <li>Anthony Barnett</li>
+                  <li>David Palacios</li>
+                  <li>Seth Zwerling</li>
+                  <li>Peter Huynh</li>
+                  <li>Seren Kapanoglu</li>
+                  <li>Zena Creps</li>
+               </ul>
+            </div>
+         </div>
 
-
-<div className="col-md-4" >
-  <ul className="nobull">
-    <li>Members:</li>
-    <li>Anthony Barnett</li>
-    <li>David Palacios</li>
-    <li>Seth Zwerling</li>
-    <li>Peter Huynh</li>
-    <li>Seren Kapanoglu</li>
-    <li>Zena Creps</li>
-      
-       
-      
-      
-      </ul>
-      Copyright &copy; 2023 <span>Privacy Policy</span>
-    
-    </div>
-</div>
-
-<div className="col-md-4" style={{marginBottom: "20px"}}>
- 
-</div>
-
-    </div>
-
-   
-    
-</footer>
-</>)
-}
+         <div className="text-center p-3">
+            Copyright &copy; 2023 <span>Privacy Policy</span>
+         </div>
+      </footer>
+   );
+};
 
 export default Footer;
-
