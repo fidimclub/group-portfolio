@@ -29,7 +29,7 @@ const Footer = () => {
                </form>
             </div>
 
-            <div className="col-md-3 col-sm-12 mb-3" style={{width: "fit-content"}}>
+            <div className="col-md-auto col-sm-12 mb-3" >
                <h5>Members:</h5>
                <ul className="list-unstyled">
                   <li>Anthony Barnett</li>
