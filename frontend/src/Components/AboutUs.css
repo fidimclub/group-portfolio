@@ -1,7 +1,4 @@
 .about-us {
-    height: fit-content;
-    padding: 50px;
     background-color: #0da86a;
-    display: flex;
-    justify-content: center;
+    padding: 20rem 5rem;
 }
